@@ -3,7 +3,7 @@ const router = express.Router();
 const quoteCtrl = require("../Controllers/quoteController");
 const auth = require("../Middleware/auth");
 
-router.post("/", auth, quoteCtrl.create);
+router.post("/create", auth, quoteCtrl.create);
 
 router.post("/get", auth, quoteCtrl.getAll);
 

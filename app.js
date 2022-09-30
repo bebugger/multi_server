@@ -9,7 +9,7 @@ const quoteRoutes = require("./Routes/quoteRoutes");
 const userRoutes = require("./Routes/userRoute");
 
 // const app = express();
-const serverCount = 2;
+const serverCount = 3;
 const startPort = 3000;
 const endPort = startPort + serverCount;
 var app = [];
